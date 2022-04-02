@@ -1,0 +1,11 @@
+:80 {
+	handle /changelist.json {
+		file_server {
+			root /data
+		}
+	}
+
+	handle {
+		file_server
+	}
+}
